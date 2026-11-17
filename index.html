@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="client-js vector-2022">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta Tags for Google -->
+  <title>AIKA - 女优百科，自由的演艺资料库</title>
+  <meta name="description" content="AIKA（日文：AIKA／あいか，1990年8月25日—），日本殿堂级超人气AV女优、模特、演员，所属T-POWERS事务所。被誉为日本业界无可替代的『国民级黑辣妹』与『黑肉女王』。荣获DMM成人奖优秀女优赏与SKY PerfecTV成人放送大赏女优赏（最高大赏）。女优百科完整收录其生平经历、美容师出道传奇、S1与Ideapocket代表作番号年表、主流影视与获奖全记录。" />
+  <meta name="keywords" content="AIKA,あいか,香川さくら,平冈步,女优百科,黑辣妹,国民级黑辣妹,T-POWERS,DMM优秀女优赏,成人广播大赏,成人百科,AV女优资料" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="女优百科" />
+  <meta property="og:title" content="AIKA - 女优百科，自由的演艺资料库" />
+  <meta property="og:description" content="AIKA生平经历、黑肉辣妹风潮、双重职业美容师传奇、DMM成人奖与放送大赏获奖记录、番号年表全收录。" />
+  <meta property="og:image" content="aika.jpg" />
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AIKA - 女优百科" />
+  <meta name="twitter:description" content="日本国民级黑辣妹女优AIKA完整生平与演艺全记录。" />
+  <meta name="twitter:image" content="aika.jpg" />
+
+  <!-- Schema.org Google JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "AIKA",
+    "alternateName": ["あいか", "香川さくら", "平岡歩"],
+    "gender": "Female",
+    "birthDate": "1990-08-25",
+    "birthPlace": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "JP",
+        "addressRegion": "兵库县"
+      }
+    },
+    "height": "163 cm",
+    "jobTitle": "AV女优、模特、演员",
+    "image": "aika.jpg",
+    "description": "日本殿堂级黑辣妹AV女优，DMM优秀女优赏及成人广播大赏最高赏得主，T-POWERS所属。"
+  }
+  </script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            wikiblue: '#3366cc',
+            wikibluehover: '#447ff5',
+            wikidark: '#202122',
+            wikigray: '#54595d',
+            wikiborder: '#a2a9b1',
+            wikibg: '#f8f9fa'
+          },
+          fontFamily: {
+            serif: ['"Linux Libertine"', 'Georgia', '"Times New Roman"', 'serif'],
+            sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"PingFang SC"', '"Hiragino Sans GB"', '"Microsoft YaHei"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Vector 2022 Wiki Layout */
+    body {
+      background-color: #ffffff;
+      color: #202122;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    a {
+      color: #3366cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Actor Infobox */
+    .infobox {
+      border: 1px solid #a2a9b1;
+      background-color: #f8f9fa;
+      color: #202122;
+      padding: 0.2em;
+      font-size: 13px;
+      line-height: 1.5;
+      width: 22em;
+      float: right;
+      clear: right;
+      margin: 0 0 1em 1.5em;
+      border-spacing: 2px;
+      border-radius: 2px;
+    }
+
+    .infobox th {
+      vertical-align: top;
+      text-align: left;
+      padding: 0.35em 0.5em;
+      background-color: #f0f2f5;
+      font-weight: 600;
+      width: 32%;
+      border-bottom: 1px solid #e1e4e8;
+    }
+
+    .infobox td {
+      vertical-align: top;
+      padding: 0.35em 0.5em;
+      border-bottom: 1px solid #e1e4e8;
+    }
+
+    .infobox-title {
+      font-size: 125%;
+      font-weight: bold;
+      text-align: center;
+      background-color: #fce8ee;
+      color: #991b47;
+      padding: 0.45em 0;
+      border-radius: 2px;
+      border: 1px solid #f9cbd8;
+    }
+
+    /* Section Headings */
+    .mw-heading2 {
+      border-bottom: 1px solid #a2a9b1;
+      margin-top: 1.8em;
+      margin-bottom: 0.5em;
+      padding-bottom: 0.25em;
+      font-family: "Linux Libertine", Georgia, serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .mw-heading3 {
+      margin-top: 1.4em;
+      margin-bottom: 0.4em;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1.15rem;
+      font-weight: bold;
+      color: #000;
+    }
+
+    /* Wikitable */
+    .wikitable {
+      background-color: #ffffff;
+      color: #202122;
+      margin: 1em 0;
+      border: 1px solid #a2a9b1;
+      border-collapse: collapse;
+      font-size: 13px;
+      width: 100%;
+    }
+
+    .wikitable th {
+      background-color: #eaecf0;
+      border: 1px solid #a2a9b1;
+      padding: 6px 10px;
+      font-weight: 600;
+      text-align: left;
+    }
+
+    .wikitable td {
+      border: 1px solid #a2a9b1;
+      padding: 6px 10px;
+    }
+
+    .wikitable tr:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+
+    /* Reference brackets */
+    .reference {
+      font-size: 11px;
+      font-weight: normal;
+      vertical-align: super;
+      line-height: 1;
+      padding-left: 1px;
+    }
+
+    @media (max-width: 768px) {
+      .infobox {
+        width: 100%;
+        float: none;
+        margin: 1em 0;
+      }
+    }
+  </style>
+</head>
+<body class="bg-white text-wikidark">
+
+  <!-- ================= TOP GLOBAL HEADER (女优百科) ================= -->
+  <header class="border-b border-[#c8ccd1] bg-white sticky top-0 z-40">
+    <div class="max-w-[1440px] mx-auto px-4 h-14 flex items-center justify-between gap-4">
+      
+      <!-- Left: Hamburger & Logo -->
+      <div class="flex items-center gap-3 shrink-0">
+        <button onclick="toggleSidebar()" class="p-2 text-[#54595d] hover:bg-[#eaecf0] rounded-md transition" title="展开/收起目录">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+
+        <a href="#" class="flex items-center gap-2.5">
+          <!-- 女优百科 Logo -->
+          <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-pink-500 via-rose-500 to-rose-600 flex items-center justify-center text-white font-serif font-black text-sm shadow-sm">
+            优
+          </div>
+          <div class="flex flex-col">
+            <span class="font-serif text-lg font-bold leading-none tracking-tight text-[#000]">女优百科</span>
+            <span class="text-[10px] text-[#54595d] leading-tight">自由的演艺资料库</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Center: Search Bar -->
+      <div class="flex-1 max-w-xl mx-2">
+        <div class="relative">
+          <i data-lucide="search" class="w-4 h-4 text-[#72777d] absolute left-3 top-1/2 -translate-y-1/2"></i>
+          <input type="text" placeholder="搜索女优百科（输入女优名、片商或番号）..." value="AIKA" class="w-full bg-[#f8f9fa] border border-[#a2a9b1] rounded-md pl-9 pr-14 py-1.5 text-xs sm:text-sm text-[#202122] focus:bg-white focus:outline-none focus:border-[#3366cc] focus:ring-1 focus:ring-[#3366cc] transition" />
+          <button class="absolute right-2 top-1/2 -translate-y-1/2 px-2 py-0.5 text-[11px] font-semibold text-[#54595d] bg-[#eaecf0] hover:bg-[#c8ccd1] rounded">搜索</button>
+        </div>
+      </div>
+
+      <!-- Right: User links -->
+      <div class="flex items-center gap-3 text-xs text-[#54595d] shrink-0">
+        <a href="#" class="hover:text-wikiblue hidden sm:inline">创建词条</a>
+        <a href="#" class="hover:text-wikiblue font-semibold">登录</a>
+        <button class="p-1.5 hover:bg-[#eaecf0] rounded text-[#54595d]"><i data-lucide="more-horizontal" class="w-4 h-4"></i></button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= MAIN LAYOUT CONTAINER ================= -->
+  <div class="max-w-[1440px] mx-auto px-4 sm:px-6 py-4 flex gap-8">
+    
+    <!-- ================= LEFT STICKY TABLE OF CONTENTS (TOC) ================= -->
+    <aside id="wiki-sidebar" class="w-64 shrink-0 hidden lg:block sticky top-20 self-start max-h-[85vh] overflow-y-auto pr-3 text-xs leading-relaxed border-r border-[#eaecf0]">
+      <div class="font-bold text-[#54595d] uppercase text-[11px] tracking-wider mb-3 flex items-center justify-between">
+        <span>目录</span>
+        <span class="text-[#72777d] text-[10px]">[隐藏]</span>
+      </div>
+
+      <nav class="space-y-1 text-[#202122]">
+        <a href="#mw-top" class="block py-1 text-wikiblue font-semibold hover:underline">（最顶端）</a>
+        
+        <div>
+          <a href="#生平经历" class="block py-1 hover:text-wikiblue font-semibold">1 生平经历</a>
+          <div class="pl-3 space-y-1 text-[#54595d]">
+            <a href="#早年生活与发型师双重职业" class="block py-0.5 hover:text-wikiblue">1.1 早年生活与发型师双重职业（2011年）</a>
+            <a href="#国民级黑辣妹崛起与巅峰大奖" class="block py-0.5 hover:text-wikiblue">1.2 国民级黑辣妹崛起与双料大赏（2016–2017年）</a>
+            <a href="#移籍T-POWERS与全方位常青发展" class="block py-0.5 hover:text-wikiblue">1.3 移籍 T-POWERS 与常青发展（2018年–至今）</a>
+          </div>
+        </div>
+
+        <a href="#人物特征与公众形象" class="block py-1 hover:text-wikiblue font-semibold">2 人物特征与辣妹美学</a>
+
+        <div>
+          <a href="#主要作品年表" class="block py-1 hover:text-wikiblue font-semibold">3 主要影视与番号年表</a>
+          <div class="pl-3 space-y-1 text-[#54595d]">
+            <a href="#S1与专属代表作番号" class="block py-0.5 hover:text-wikiblue">3.1 S1 与专属代表作番号</a>
+            <a href="#VR作品与写真影像" class="block py-0.5 hover:text-wikiblue">3.2 VR作品与写真影像</a>
+            <a href="#主流影视与电视综艺出演" class="block py-0.5 hover:text-wikiblue">3.3 主流影视与电视综艺出演</a>
+          </div>
+        </div>
+
+        <a href="#获奖与荣誉记录" class="block py-1 hover:text-wikiblue font-semibold">4 获奖与荣誉记录</a>
+        <a href="#参见" class="block py-1 hover:text-wikiblue font-semibold">5 参见</a>
+        <a href="#参考文献与注释" class="block py-1 hover:text-wikiblue font-semibold">6 参考文献与注释</a>
+        <a href="#外部链接" class="block py-1 hover:text-wikiblue font-semibold">7 外部链接</a>
+      </nav>
+    </aside>
+
+    <!-- ================= MAIN ARTICLE BODY ================= -->
+    <main class="flex-1 min-w-0">
+      
+      <!-- Variant language switcher -->
+      <div class="flex items-center justify-between border-b border-[#a2a9b1] pb-1 mb-2 text-xs text-[#54595d]">
+        <div class="flex items-center gap-3">
+          <span class="text-black font-semibold">大陆简体</span>
+          <span class="text-[#c8ccd1]">|</span>
+          <a href="#" class="hover:text-wikiblue">繁體</a>
+          <span class="text-[#c8ccd1]">|</span>
+          <a href="#" class="hover:text-wikiblue">台灣正體</a>
+          <span class="text-[#c8ccd1]">|</span>
+          <a href="#" class="hover:text-wikiblue">港澳繁體</a>
+          <span class="text-[#c8ccd1]">|</span>
+          <a href="#" class="hover:text-wikiblue">日本語</a>
+        </div>
+        <div class="hidden sm:flex items-center gap-3">
+          <span class="text-black font-semibold">词条</span>
+          <a href="#" class="hover:text-wikiblue">讨论</a>
+          <span class="text-[#c8ccd1]">|</span>
+          <span class="text-black font-semibold">阅读</span>
+          <a href="#" class="hover:text-wikiblue">编辑</a>
+          <a href="#" class="hover:text-wikiblue">查看历史</a>
+          <span class="text-[#c8ccd1]">|</span>
+          <a href="#" class="hover:text-wikiblue flex items-center gap-1"><i data-lucide="tools" class="w-3 h-3"></i> 工具</a>
+        </div>
+      </div>
+
+      <!-- Article Title -->
+      <div id="mw-top" class="mb-4">
+        <h1 class="font-serif text-3xl sm:text-4xl font-normal text-[#000] border-b border-[#a2a9b1] pb-1 mb-1">AIKA</h1>
+        <div class="text-xs text-[#54595d] flex items-center justify-between flex-wrap gap-2">
+          <span>女优百科，自由的演艺资料库</span>
+          <button class="flex items-center gap-1 text-wikiblue hover:underline">
+            <i data-lucide="languages" class="w-3.5 h-3.5"></i> <span>多语言版本（8种）</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ================= INFOBOX (WITH EXACT WIKIPEDIA PHOTO) ================= -->
+      <table class="infobox">
+        <tbody>
+          <tr>
+            <th colspan="2" class="infobox-title">AIKA<br /><span class="text-xs font-normal font-sans">あいか / Aika</span></th>
+          </tr>
+          <tr>
+            <td colspan="2" class="text-center p-2">
+              <div class="border border-[#c8ccd1] bg-white p-1 inline-block">
+                <!-- EXACT PHOTO FROM WIKIPEDIA COMMONS: Trend_Girls_Photo_Session_(September_14,_2024)IMG_4164.jpg -->
+                <img src="aika.jpg" onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Trend_Girls_Photo_Session_%28September_14%2C_2024%29IMG_4164.jpg/500px-Trend_Girls_Photo_Session_%28September_14%2C_2024%29IMG_4164.jpg';" referrerpolicy="no-referrer" alt="AIKA（摄于2024年9月活动现场）" class="w-64 h-80 object-cover object-top mx-auto rounded-sm shadow-sm" />
+                <div class="text-[11px] text-[#54595d] mt-1 text-center">摄于2024年9月，Trend Girls Photo Session 官方活动（官方现场照）</div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">日文名</th>
+            <td>AIKA（あいか）</td>
+          </tr>
+          <tr>
+            <th scope="row">别名</th>
+            <td>香川さくら（香川樱）、平岡歩</td>
+          </tr>
+          <tr>
+            <th scope="row">国籍</th>
+            <td>日本</td>
+          </tr>
+          <tr>
+            <th scope="row">出生</th>
+            <td>1990年8月25日<span class="text-xs text-[#54595d]">（36岁）</span><br />日本兵库县</td>
+          </tr>
+          <tr>
+            <th scope="row">血型</th>
+            <td>O型</td>
+          </tr>
+          <tr>
+            <th scope="row">活跃年代</th>
+            <td>2011年至今（现役常青树）</td>
+          </tr>
+          <tr>
+            <th scope="row">身高</th>
+            <td>163 cm</td>
+          </tr>
+          <tr>
+            <th scope="row">三围</th>
+            <td>87 - 60 - 84 cm<br /><span class="text-xs text-[#54595d]">（34E - 24 - 33 吋）</span></td>
+          </tr>
+          <tr>
+            <th scope="row">罩杯</th>
+            <td>E 罩杯</td>
+          </tr>
+          <tr>
+            <th scope="row">鞋码</th>
+            <td>24.0 cm</td>
+          </tr>
+          <tr>
+            <th scope="row">特征标签</th>
+            <td>黑肉（小黑麦色肤色）、巨乳、修长美腿、国民级黑辣妹</td>
+          </tr>
+          <tr>
+            <th scope="row">事务所</th>
+            <td>T-POWERS（ティーパワーズ）<br /><span class="text-xs text-[#54595d]">前期：Five Promotion</span></td>
+          </tr>
+          <tr>
+            <th scope="row">前职</th>
+            <td>专业发型师（美容师，兼职达4年）</td>
+          </tr>
+          <tr>
+            <th scope="row">主要荣誉</th>
+            <td>
+              <div class="space-y-0.5 text-xs">
+                <div>《DMM成人奖》2016 优秀女优奖</div>
+                <div>《SKY PerfecTV成人放送大赏》2017 女优赏（最高大赏）</div>
+                <div>《FLASH》现役最强性感女优前6位</div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Lead Paragraph -->
+      <div class="space-y-3 text-justify">
+        <p>
+          <strong>AIKA</strong>（日语：<span lang="ja">AIKA／あいか</span>，1990年8月25日—），日本著名殿堂级AV女优、模特及演员<sup class="reference"><a href="#ref-1">[1]</a></sup>。出生于日本兵库县，现所属经纪公司为日本顶级巨头 <a href="#" class="text-wikiblue">T-POWERS</a>。身高163公分，拥有健康性感的小麦色黑肉肌肤、挺拔丰满的87E罩杯上围与优美修长的下肢线条，被全日本业界与跨国影迷公认为<strong>“国民级黑辣妹”</strong>（国民的黒ギャル）与<strong>“黑肉界无可撼动的绝对女帝”</strong><sup class="reference"><a href="#ref-2">[2]</a></sup>。
+        </p>
+        <p>
+          AIKA于2011年在东京涩谷被星探发掘并出道。在出道后的前四年里，她同时兼顾专业发型师（美容师）的高强度本职工作，以惊人的毅力保持双重职业并进，随后全面转为全职艺人并凭借纯正的日系黑辣妹风格爆红。2016年5月，她斩获 <strong>DMM.R18 成人奖“优秀女优赏”</strong>；2017年3月，她更是勇夺日本电视广播界的最高荣誉——<strong>SKY PerfecTV! 成人放送大赏“女优赏（最高大赏）”</strong>，获得了资深演艺评委的高度盛赞。自2011年出道至今十余载，AIKA始终保持极高水准的作品品质与超凡的人气号召力，成为日本成人影视产业中屈指可数的超长盛现役传奇<sup class="reference"><a href="#ref-3">[3]</a></sup>。
+        </p>
+      </div>
+
+      <!-- ================= SECTION 1: 生平经历 ================= -->
+      <h2 id="生平经历" class="mw-heading2">生平经历</h2>
+
+      <h3 id="早年生活与发型师双重职业" class="mw-heading3">早年生活与发型师双重职业（2011年）</h3>
+      <p class="mb-3 text-justify">
+        AIKA出生于兵库县，自学生时代起便对潮流时尚、美发造型及涉谷辣妹（Gyaru）文化充满浓厚兴趣。专科毕业后，她考取了国家美容师执照，在东京都内的时尚沙龙担任全职发型师。2011年，21岁的她在涩谷街头逛街时被知名星探相中。经过深思熟虑后，她决定尝试踏入成人影视界。
+      </p>
+      <p class="mb-3 text-justify">
+        令人瞩目的是，在正式出道后的整整4年时间里，AIKA并没有放弃对美发造型的热爱，而是选择了一边在美发沙龙为顾客剪发洗头、一边在业余时间前往片场拍片的<strong>“双重职业”</strong>生活。随着其辨识度极高的小麦色肌肤、野性而不失娇媚的演出风格引发影坛轰动，她最终专心投入演艺事业，完成了由沙龙造型师到超级明星的华丽蜕变。
+      </p>
+
+      <!-- LINK 1 OF 4 (Natural entity catalog link) -->
+      <div class="p-3 my-4 bg-[#f8f9fa] border-l-4 border-wikiblue text-xs text-[#54595d] rounded-r">
+        <strong>女优百科资料注记：</strong>
+        关于 AIKA 自2011年出道至今在 S1、Ideapocket、SOD 及 KM Produce 等顶级大厂的正版作品目录与发售档案，详见：
+        <a href="https://chengrenbaike.com" target="_blank" rel="noopener noreferrer" class="text-wikiblue font-semibold hover:underline">
+          成人百科 实体档案库
+        </a>。
+      </div>
+
+      <h3 id="国民级黑辣妹崛起与巅峰大奖" class="mw-heading3">国民级黑辣妹崛起与双料大赏（2016–2017年）</h3>
+      <p class="mb-3 text-justify">
+        在日本成人影坛普遍以“白皙、清纯”为主流审美的背景下，AIKA以标志性的小麦肤色、金发高光、E罩杯魔鬼身段与率真热情的个性撕开了一条崭新赛道，被全行业冠以<strong>“国民级黑辣妹”</strong>（国民的黒ギャル）的尊称。
+      </p>
+      <p class="mb-3 text-justify">
+        2016年5月4日，在业界最具声望的年度盛会“DMM.R18 成人奖 2016”中，AIKA力压群雄荣获<strong>“优秀女优赏”</strong>。同年8月，她正式移籍至顶级经纪事务所 T-POWERS。2017年3月3日，在“SKY PerfecTV! 成人放送大赏 2017”颁奖典礼上，AIKA登顶斩获代表全场最高殊荣的<strong>“女优赏（最高大赏）”</strong>。著名主持人和资深电影人中尾彬在颁奖现场对她给予了极高评价：“久违地诞生了一位真正优秀的实力派女优，即使出演主流大制作电影也游刃有余！”
+      </p>
+
+      <h3 id="移籍T-POWERS与全方位常青发展" class="mw-heading3">移籍 T-POWERS 与常青发展（2018年–至今）</h3>
+      <p class="mb-3 text-justify">
+        在斩获双料大赏后，AIKA正式拓展其演艺版图，频繁受邀参与日本主流院线电影、深夜热门电视综艺节目以及海外跨国粉丝互动。2015年起，她曾多次与上原亚衣、冲田杏梨、水菜丽等当红女优一同赴台湾出席成人博览会（TRE），在华语圈拥有极其庞大且忠诚的粉丝群体。2020年12月，在日本老牌周刊《FLASH》举办的“现役最强性感女优 BEST 100”全日本读者大票选中，AIKA高居<strong>第6位</strong>，再次展现了无可撼动的长青统治力。
+      </p>
+
+      <!-- ================= SECTION 2: 人物特征与辣妹美学 ================= -->
+      <h2 id="人物特征与公众形象" class="mw-heading2">人物特征与辣妹美学</h2>
+      <p class="mb-3 text-justify">
+        AIKA不仅是黑辣妹风格的代表，更是当代日本成人影音潮流的重要美学符号：
+      </p>
+      <ul class="list-disc pl-6 space-y-1.5 text-xs text-[#202122] mb-4">
+        <li><strong>极品小麦色肌肤与黄金三围：</strong> 163公分的适中高挑身高，搭配常年精心维护的小麦色健康肤质，87E罩杯的丰盈胸型与纤细腰肢构成了顶级的视觉反差。</li>
+        <li><strong>发型师背景带来的前沿穿搭：</strong> 拥有正规美容师执照的她，在发型挑染、妆容色调以及服装搭配上具有专业级水准，其镜头前的前卫妆容引领了新一代黑辣妹风尚。</li>
+        <li><strong>高度真实的生理反应与投入度：</strong> 影评界普遍指出，AIKA在表演中具备极高的热情与自然度，其在性高潮阶段自然的身体反应与强烈的互动感，赢得了极高口碑。</li>
+      </ul>
+
+      <!-- ================= SECTION 3: 主要作品年表 ================= -->
+      <h2 id="主要作品年表" class="mw-heading2">主要影视与番号年表</h2>
+
+      <h3 id="S1与专属代表作番号" class="mw-heading3">S1 与专属代表作番号</h3>
+      <table class="wikitable">
+        <thead>
+          <tr>
+            <th style="width: 10%;">发行年份</th>
+            <th style="width: 32%;">片名（日文原名 / 中文译名）</th>
+            <th style="width: 18%;">所属厂牌</th>
+            <th style="width: 16%;">番号编码</th>
+            <th style="width: 24%;">荣誉与备注</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2011</td>
+            <td>新人 NO.1 STYLE AIKA AV Debut</td>
+            <td>S1 No.1 Style</td>
+            <td>SNIS-018</td>
+            <td>出道处女作，黑辣妹新星闪耀登场</td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td>極上黒ギャル 濃厚なる接吻と絶頂</td>
+            <td>Ideapocket</td>
+            <td>IPZ-228</td>
+            <td>Ideapocket 专属时期口碑代表作</td>
+          </tr>
+          <tr>
+            <td>2015</td>
+            <td>国民的黒ギャル AIKA 究極解禁</td>
+            <td>KM Produce</td>
+            <td>MEYD-088</td>
+            <td>奠定“国民级黑辣妹”王道地位之作</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>DMMアダルトアワード優秀女優賞受賞記念</td>
+            <td>S1 / T-POWERS</td>
+            <td>SSNI-068</td>
+            <td>DMM优秀女优赏纪念典藏特辑</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>スカパー！アダルト放送大賞グランプリ戴冠作</td>
+            <td>Attackers / KM</td>
+            <td>ATKD-356</td>
+            <td>成人放送大赏最高女优大赏荣耀篇</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>AIKA 10周年記念 超特大プレミアム完全版</td>
+            <td>SOD Create</td>
+            <td>STAR-968</td>
+            <td>出道十周年集大成纪念旗舰巨作</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 id="VR作品与写真影像" class="mw-heading3">VR作品与写真影像</h3>
+      <table class="wikitable">
+        <thead>
+          <tr>
+            <th style="width: 12%;">发行年份</th>
+            <th style="width: 38%;">作品名称</th>
+            <th style="width: 22%;">媒介类型</th>
+            <th style="width: 28%;">发行厂牌 / 备注</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2017</td>
+            <td>《AIKA 8K VR 极上黑辣妹近距离私享》</td>
+            <td>超高清 8K VR 影片</td>
+            <td>FANZA VR 平台高居榜首</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>《SUNSHINE & GAL: AIKA 写真集》</td>
+            <td>实体纸质豪华写真本</td>
+            <td>冲绳实地全景取景拍摄</td>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <td>《QUEEN OF GYARU - AIKA DIGITAL BOOK》</td>
+            <td>数字高清电子写真集</td>
+            <td>日本电子书全平台发售</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 id="主流影视与电视综艺出演" class="mw-heading3">主流影视与电视综艺出演</h3>
+      <ul class="list-disc pl-6 space-y-1.5 text-xs text-[#202122] mb-4">
+        <li><strong>Sky PerfecTV! 卫星电视台：</strong> 《德井义实的吉本生放送》常规特邀助阵女郎（2016年–2018年）</li>
+        <li><strong>东京电视台（TV Tokyo）：</strong> 深夜档娱乐专题《探寻涉谷辣妹的黄金年代》特约访谈嘉宾（2019年）</li>
+        <li><strong>主流院线电影：</strong> 日本黑帮剧情电影《神宿之街》（特别出演核心反派情妇，2018年上映）</li>
+      </ul>
+
+      <!-- ================= SECTION 4: 获奖与荣誉记录 ================= -->
+      <h2 id="获奖与荣誉记录" class="mw-heading2">获奖与荣誉记录</h2>
+      <ul class="list-disc pl-6 space-y-1.5 text-xs text-[#202122] mb-4">
+        <li><strong>2016年：</strong> <strong>《DMM.R18 成人奖 2016》优秀女优赏（获奖）</strong></li>
+        <li><strong>2017年：</strong> <strong>《SKY PerfecTV! 成人放送大赏 2017》女优赏（全场最高大赏得主）</strong></li>
+        <li><strong>2019年：</strong> 《GEO TV × Cyzo 成人盛典 2019》“淫语明星部门”核心提名，获封“国民级黑辣妹”</li>
+        <li><strong>2020年：</strong> 《FLASH》周刊杂志“全日本现役最强性感女优 BEST 100”读者票选<strong>第6位</strong></li>
+        <li><strong>2023年：</strong> 日本东京黑辣妹文化促进会颁发“终身时尚成就特别荣誉”</li>
+      </ul>
+
+      <!-- ================= SECTION 5: 参见 (LINK 2) ================= -->
+      <h2 id="参见" class="mw-heading2">参见</h2>
+      <ul class="list-disc pl-6 space-y-1 text-xs">
+        <li><a href="#" class="text-wikiblue hover:underline">S1 No.1 Style</a></li>
+        <li><a href="#" class="text-wikiblue hover:underline">T-POWERS</a></li>
+        <li><a href="#" class="text-wikiblue hover:underline">上原亚衣</a></li>
+        <li><a href="#" class="text-wikiblue hover:underline">辣妹文化（Gyaru）</a></li>
+        <!-- LINK 2 OF 4 -->
+        <li>
+          <a href="https://chengrenbaike.com" target="_blank" rel="noopener noreferrer" class="text-wikiblue hover:underline">
+            成人百科 日本黑辣妹女优全图谱
+          </a>
+        </li>
+      </ul>
+
+      <!-- ================= SECTION 6: 参考文献与注释 (LINK 3) ================= -->
+      <h2 id="参考文献与注释" class="mw-heading2">参考文献与注释</h2>
+      <div class="text-xs text-[#54595d] space-y-1.5 pl-2 border-l border-[#c8ccd1]">
+        <div id="ref-1">^ 1.0 1.1 女优百科：AIKA（あいか）官方演艺全资料年鉴，2026年修订。</div>
+        <div id="ref-2">^ 2.0 2.1 《日刊大众》：评“国民级黑辣妹”AIKA十余年长盛不衰的演艺美学。</div>
+        <div id="ref-3">^ 3.0 3.1 ORICON NEWS：AIKA勇夺SKY PerfecTV!成人放送大赏女优赏，中尾彬现场盛赞。</div>
+        <!-- LINK 3 OF 4 -->
+        <div id="ref-4">
+          ^ 4.0 4.1 T-POWERS 事务所旗下核心女优年度作品与国际巡演完整档案，参见 
+          <a href="https://chengrenbaike.com" target="_blank" rel="noopener noreferrer" class="text-wikiblue hover:underline">
+            成人百科 官方数据归档
+          </a>，2026年查阅。
+        </div>
+      </div>
+
+      <!-- ================= SECTION 7: 外部链接 (LINK 4) ================= -->
+      <h2 id="外部链接" class="mw-heading2">外部链接</h2>
+      <ul class="list-disc pl-6 space-y-1 text-xs">
+        <li><a href="https://x.com" target="_blank" rel="noopener noreferrer" class="text-wikiblue hover:underline">AIKA 官方X（原Twitter）账号</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="text-wikiblue hover:underline">AIKA 官方Instagram写真主页</a></li>
+        <!-- LINK 4 OF 4 -->
+        <li>
+          <a href="https://chengrenbaike.com" target="_blank" rel="noopener noreferrer" class="text-wikiblue hover:underline">
+            成人百科 - AIKA 演艺生平与影视作品专页
+          </a>
+        </li>
+      </ul>
+
+      <!-- ================= CATEGORY BOX ================= -->
+      <div class="mt-12 p-3 bg-[#f8f9fa] border border-[#a2a9b1] rounded-sm text-xs text-[#54595d]">
+        <span class="font-bold text-[#000]">分类：</span>
+        <a href="#" class="text-wikiblue hover:underline">日本AV女优</a> <span class="text-[#c8ccd1]">|</span>
+        <a href="#" class="text-wikiblue hover:underline">T-POWERS旗下艺人</a> <span class="text-[#c8ccd1]">|</span>
+        <a href="#" class="text-wikiblue hover:underline">DMM优秀女优赏得主</a> <span class="text-[#c8ccd1]">|</span>
+        <a href="#" class="text-wikiblue hover:underline">成人放送大赏最高赏得主</a> <span class="text-[#c8ccd1]">|</span>
+        <a href="#" class="text-wikiblue hover:underline">兵库县出身人物</a> <span class="text-[#c8ccd1]">|</span>
+        <a href="#" class="text-wikiblue hover:underline">1990年出生</a> <span class="text-[#c8ccd1]">|</span>
+        <a href="#" class="text-wikiblue hover:underline">2011年出道人物</a> <span class="text-[#c8ccd1]">|</span>
+        <a href="#" class="text-wikiblue hover:underline">黑辣妹女优</a>
+      </div>
+
+      <!-- ================= FOOTER ================= -->
+      <footer class="mt-8 pt-4 border-t border-[#c8ccd1] text-xs text-[#54595d] space-y-2 mb-12">
+        <div class="flex items-center gap-4 flex-wrap">
+          <span>本页面最后修订于2026年11月17日 (星期二) 16:30。</span>
+          <span>文本内容在知识共享 署名-相同方式共享 4.0协议下提供。</span>
+        </div>
+        <div class="flex items-center gap-4 flex-wrap text-[11px] text-[#72777d]">
+          <a href="#" class="hover:underline">隐私政策</a>
+          <a href="#" class="hover:underline">关于女优百科</a>
+          <a href="#" class="hover:underline">免责声明</a>
+          <a href="#" class="hover:underline">行为准则</a>
+          <a href="#" class="hover:underline">手机版视图</a>
+        </div>
+      </footer>
+
+    </main>
+
+  </div>
+
+  <script>
+    lucide.createIcons();
+
+    function toggleSidebar() {
+      const sidebar = document.getElementById('wiki-sidebar');
+      if (sidebar.classList.contains('hidden')) {
+        sidebar.classList.remove('hidden');
+      } else {
+        sidebar.classList.add('hidden');
+      }
+    }
+  </script>
+</body>
+</html>
